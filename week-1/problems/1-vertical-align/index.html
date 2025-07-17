@@ -7,13 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horizontal Align</title>
     <style>
+        .body{
+            padding:30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .container {
-            width: 1200px;
-            margin: 0 auto;
+            width: 80%;
             background-color: red;
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
         }
         .content {
             height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .vertical-center {
             display: flex;
@@ -27,10 +39,10 @@
     </style>
 </head>
 
-<body>
+<body class="body">
     <div class="container">
         <div class="content">
-            <div class="vertical-center" style="background-color: yellow;">
+            <div class="vertical-center">
                 <div class="horizontal-center">
                     <h1>Hello World</h1>
                 </div>
