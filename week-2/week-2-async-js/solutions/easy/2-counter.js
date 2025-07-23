@@ -1,10 +1,7 @@
-let counter = 0; 
+let counter=0;
 
-const updateCounter = () => {
-  counter++; 
-  console.log(counter); 
-
-  setTimeout(updateCounter, 1000);
-};
-
-updateCounter();
+const updatecounter = () => setTimeout(()=>{
+    console.log(counter++);
+    updatecounter();
+},1000)
+updatecounter();
