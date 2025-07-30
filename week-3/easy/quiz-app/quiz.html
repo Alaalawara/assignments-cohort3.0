@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .body {
+            font-family: monospace;
+            color: #172320;
+        }
+
+        .main {
+            background-color: white;
+            height: 100vh;
+            padding: 100px;
+        }
+
+        .main_div {
+            display: flex;
+            height: fit-content;
+            width: 100%;
+            gap:20px;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .table {
+            background-color: #F9D6F5;
+            display: grid;
+            border: 2px solid;
+            border-radius: 10px;
+            grid-template-columns: auto auto;
+            padding: 20px 30px;
+        }
+
+        .submit_button {
+            background-color: #F9D6F5;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-top: 10px;
+            border: 2px solid;
+           
+        }
+        .submit_button:hover{
+            background-color: #3e8e41
+        }
+    </style>
+</head>
+
+<body class="body">
+    <title>Quizzlerr</title>
+    <div class="main">
+        <div class="main_div">
+            <h1 class="logo">Quizzlerr</h1>
+            <div class="">
+                <div id="quiz" class="table"></div>
+            <button id="submitBtn" class="submit_button">Submit Quiz</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script>
+        const quizData = [
+            {
+                question: "Which language runs in a web browser?",
+                a: "Java",
+                b: "C",
+                c: "Python",
+                d: "JavaScript",
+                correct: "d"
+            },
+            {
+                question: "What does CSS stand for?",
+                a: "Central Style Sheets",
+                b: "Cascading Style Sheets",
+                c: "Cascading Simple Sheets",
+                d: "Cars SUVs Sailboats",
+                correct: "b",
+            },
+            {
+                question: "What does HTML stand for?",
+                a: "Hypertext Markup Language",
+                b: "Hypertext Markdown Language",
+                c: "Hyperloop Machine Language",
+                d: "Helicopters Terminals Motorboats Lamborginis",
+                correct: "a",
+            },
+            {
+                question: "What year was JavaScript launched?",
+                a: "1996",
+                b: "1995",
+                c: "1994",
+                d: "none of the above",
+                correct: "b",
+            }
+        ];
+
+        const quizContainer = document.getElementById('quiz');
+
+        quizContainer.innerHTML = quizData
+            .map((item, idx) => `
+            <div class="question-block" style="margin-bottom:24px;">
+            <div class="question"><b>${idx + 1}. ${item.question}</b></div>
+            <div class="options">
+                <label><input type="radio" name="q${idx}" value="a"> a) ${item.a}</label><br>
+                <label><input type="radio" name="q${idx}" value="b"> b) ${item.b}</label><br>
+                <label><input type="radio" name="q${idx}" value="c"> c) ${item.c}</label><br>
+                <label><input type="radio" name="q${idx}" value="d"> d) ${item.d}</label>
+            </div>
+            </div>`)
+            .join('');
+
+        document.getElementById('submitBtn').addEventListener('click', function () {
+            let score = 0;
+            quizData.forEach((item, idx) => {
+                const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+                if (selected && selected.value === item.correct) {
+                    score += 1;
+                }
+            });
+            const message = `You scored ${score} out of ${quizData.length}!`;
+            alert(message);
+            document.getElementById('result').textContent = message;
+        });
+
+    </script>
+</body>
+
+</html>
