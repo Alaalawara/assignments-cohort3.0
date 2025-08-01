@@ -2,13 +2,21 @@ const { Router } = require("express");
 const adminMiddleware = require("../middleware/user");
 const router = Router();
 
+const todos=[];
+
 // todo Routes
 router.post('/', (req, res) => {
-    // Implement todo creation logic
+    if (!id || !title) {
+        return res.status(400).json({ error: "id and title are required" });
+    }
+    todos.push({
+        id,
+        title
+    })
 });
 
-router.put('/', adminMiddleware, (req, res) => {
-    // Implement update todo  logic
+router.put('/update', adminMiddleware, (req, res) => {
+   
 });
 
 router.delete('/', adminMiddleware, (req, res) => {
@@ -21,11 +29,13 @@ router.delete('/:id', adminMiddleware, (req, res) => {
 
 
 router.get('/', adminMiddleware, (req, res) => {
-    // Implement fetching all todo logic
+    res.json({
+        todos
+    })
 });
 
 router.get('/:id', adminMiddleware, (req, res) => {
-    // Implement fetching todo by id logic
+    
 });
 
 module.exports = router;
