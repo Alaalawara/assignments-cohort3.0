@@ -1,0 +1,287 @@
+[33mcommit 7e91a986be150616ab4f9e707bfbba27d10fd514[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Thu Aug 21 23:34:29 2025 +0530
+
+    week 6.1
+
+[33mcommit 3c72ce995a4eb209aac98f9f2d96cc4da425352e[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Wed Aug 13 21:01:54 2025 +0530
+
+    week-5
+
+[33mcommit ad120eb69f3562267bad6b2021f27d9cd781c40c[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Mon Aug 4 21:24:34 2025 +0530
+
+    week-4 hard problem solved
+
+[33mcommit 012becb4687379c1677875a3987ae94774aadb1c[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Fri Aug 1 23:16:54 2025 +0530
+
+    week 4 basics
+
+[33mcommit 27b85f06fe2bb11d3a42d7e6290b77ebffa82a1d[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Wed Jul 30 23:00:25 2025 +0530
+
+    quizzler
+
+[33mcommit 9d5e44ae99225c39a061e65b25e3774fa3d7d150[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Sun Jul 27 23:56:54 2025 +0530
+
+    done
+
+[33mcommit c1c70ab0816f6b33e1221ebeaa033dd5d48d5d51[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Sun Jul 27 23:51:02 2025 +0530
+
+    working bg changer
+
+[33mcommit dbd4ab0e5c25add900427aaf55bfc24246c163f9[m
+Author: Alaalawara <swarajsanap23@gmail.com>
+Date:   Sun Jul 27 23:32:55 2025 +0530
+
+    week-3
+
+[33mcommit b53a2aed13fa3f917d2ed0a4a69871a25fcf17a4[m
+Author: Alaalawara <you@example.com>
+Date:   Fri Jul 25 17:44:57 2025 +0530
+
+    week-2-async-hard solve
+
+[33mcommit 8b5e8c61ee421aad7d2e507bfc5d7bbcd70cea11[m
+Author: Alaalawara <you@example.com>
+Date:   Thu Jul 24 21:28:31 2025 +0530
+
+    week-2-medium
+
+[33mcommit 91ea2d94a2c5d32d16950f0852ab54ef320e39ed[m
+Author: Alaalawara <you@example.com>
+Date:   Wed Jul 23 12:31:00 2025 +0530
+
+    week-2-async-js easy solve
+
+[33mcommit dd5d6e0b589e695b0331dbc96e3b5b85795ea18a[m
+Author: Alaalawara <you@example.com>
+Date:   Thu Jul 17 12:38:28 2025 +0530
+
+    week-2-js assignment over
+
+[33mcommit 709a718c059f1713edac0985169444c42e302211[m
+Author: Alaalawara <you@example.com>
+Date:   Thu Jul 17 11:41:11 2025 +0530
+
+    week-1 html/css
+
+[33mcommit 5d9afaec7d9d3eebc759781746d2995228feae35[m
+Author: Alaalawara <you@example.com>
+Date:   Wed Jul 16 23:39:33 2025 +0530
+
+    week-2-js medium
+
+[33mcommit 49ae4f336c26b3c4f2377c0c086a63b7e4056d01[m
+Author: Alaalawara <you@example.com>
+Date:   Tue Jul 15 19:32:32 2025 +0530
+
+    week-2-js  easy
+
+[33mcommit f14feda438df7503ac66e0041ec75c04639d7ecb[m
+Merge: 84c2316 22e8da4
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Sat Feb 1 22:18:32 2025 +0530
+
+    Merge pull request #123 from sumana10/solution-branch
+    
+    reverse the progressbar
+
+[33mcommit 22e8da43c047eabe9b23c4ee0b9bb6b86eae72a5[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Sat Feb 1 18:59:19 2025 +0530
+
+    reverse the progressbar
+
+[33mcommit 84c2316774918417442617edcf5c356dbc1687c9[m
+Merge: ab033ea 1e47541
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Mon Jan 20 18:22:30 2025 +0530
+
+    Merge pull request #119 from sumana10/solution-branch
+    
+    remove coverage
+
+[33mcommit 1e4754129ff44132fd9e1b943d7ec1e17fbf9b46[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Mon Jan 20 18:18:51 2025 +0530
+
+    remove coverage
+
+[33mcommit ab033ea4071954eb248dc8427ad217f06fcd6123[m
+Merge: 6c5c232 2452577
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Fri Dec 20 22:01:30 2024 +0530
+
+    Merge pull request #115 from sumana10/solution-branch
+    
+    week-18 solution
+
+[33mcommit 245257770765c85c8ac8fe51f00b5520a841c306[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Fri Dec 20 21:06:38 2024 +0530
+
+    week-18 solution
+
+[33mcommit 6c5c2327595399dfb137ea3d219a91076d41f2d6[m
+Merge: 0710059 ace7c09
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Thu Dec 19 23:34:18 2024 +0530
+
+    Merge pull request #114 from sumana10/solution-branch
+    
+    week-19 assignment
+
+[33mcommit ace7c0936dc00647a4f522c2a8f49d8542b90f7a[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Thu Dec 19 22:32:44 2024 +0530
+
+    week-19 assignment
+
+[33mcommit 07100596ff86e9bfd9203163206a7832110ac11c[m
+Merge: acd00ee 7032f6f
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Thu Dec 19 22:30:10 2024 +0530
+
+    Merge pull request #113 from sumana10/solution-branch
+    
+    week-19 assignment
+
+[33mcommit 7032f6f7e21dda6a83eee8bb8c1168b5971c5bb7[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Thu Dec 19 19:59:48 2024 +0530
+
+    week-19 assignment
+
+[33mcommit acd00ee93a34533f18a246974093ce4a7e936576[m
+Merge: 1902eb1 62f5482
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Wed Dec 11 13:00:38 2024 +0530
+
+    Merge pull request #112 from sumana10/solution-branch
+    
+    week-18 prisma assignment
+
+[33mcommit 62f5482e585ea030f640d0ca65b8652658ca9d46[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Wed Dec 11 12:49:59 2024 +0530
+
+    week-18 prisma assignment
+
+[33mcommit 1902eb1880e4e6d169672fe724fcbbf80bce481e[m
+Merge: ca8b6b0 0c895db
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Sat Dec 7 15:43:16 2024 +0530
+
+    Merge pull request #109 from sumana10/solution-branch
+    
+    add solution of week-17
+
+[33mcommit 0c895dbc6d0716dc37b659f528f44a049c833d2d[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Sat Dec 7 11:51:22 2024 +0530
+
+    add solution of week-17
+
+[33mcommit ca8b6b094922781082c5c92152e84f633542298f[m
+Merge: 5ea18c1 712f192
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Mon Dec 2 21:39:25 2024 +0530
+
+    Merge pull request #108 from sumana10/solution-branch
+    
+    Week-17 Assignment
+
+[33mcommit 712f1923e05d571a1d1aa098493859fa620bc391[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Mon Dec 2 21:32:34 2024 +0530
+
+    remove lock file
+
+[33mcommit a98ebcc31adcc6959a082a29f65af057a38eaeaa[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Mon Dec 2 21:31:29 2024 +0530
+
+    remove lock file
+
+[33mcommit 5fd55e0307544c7d870fde405a26ff00bee15e3d[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Mon Dec 2 21:20:55 2024 +0530
+
+    postgres assignment
+
+[33mcommit 5ea18c1afc981da478b55e5b1ee471f2a13bafd9[m
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Thu Nov 14 19:40:09 2024 +0530
+
+    Week-14 assignments added
+
+[33mcommit 9fc613aa0a44d2a11e11c0ccfe2d5b565bcd209a[m
+Merge: ac02966 52d826c
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Wed Nov 6 14:01:18 2024 +0530
+
+    Merge pull request #98 from Praashh/main
+    
+    week-13 assignments
+
+[33mcommit 52d826c06ebbf451f6da612bf9c6be2e52d7e0c0[m
+Author: Prashant Varma <prashantvarma5083@gmail.com>
+Date:   Wed Nov 6 13:58:35 2024 +0530
+
+    added week-13 assignments
+
+[33mcommit ac02966658ccf0427a1abb6dc38aab64af95fa0c[m
+Merge: 8e79057 90904c6
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Tue Oct 29 15:31:23 2024 +0530
+
+    Merge pull request #92 from sumana10/solution-branch
+    
+    week-11 assignment solution
+
+[33mcommit 90904c6166bfef4e9894a9c5cd42053a3e782d1e[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Tue Oct 29 15:24:56 2024 +0530
+
+    week-11 assignment solution
+
+[33mcommit 8e79057a336b065b65bd0e81f1888f2d3c1d576d[m
+Merge: 868c9fc 09d78fe
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Fri Oct 25 19:18:15 2024 +0530
+
+    Merge pull request #90 from sumana10/solution-branch
+    
+    Week 11 Recoil Assignment - Updated with Wishlist Component
+
+[33mcommit 09d78fe10de159bbeb0a8c12127f3e370342b22f[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Fri Oct 25 18:23:51 2024 +0530
+
+    sync wishlist with the cart
+
+[33mcommit 868c9fc83264ad774d8b120e66a8638c79ed62fd[m
+Merge: f117b6c 6031132
+Author: Praash <99237795+Praashh@users.noreply.github.com>
+Date:   Thu Oct 24 21:07:16 2024 +0530
+
+    Merge pull request #88 from sumana10/solution-branch
+    
+    Week-10 Solutions
+
+[33mcommit 6031132c5c621123cc5a1e9aeb067a6762828f62[m
+Author: sumana10 <sumanaonlyme@gmail.com>
+Date:   Thu Oct 24 19:26:06 2024 +0530
+
+    add aut

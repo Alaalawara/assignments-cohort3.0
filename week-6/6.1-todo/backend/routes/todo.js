@@ -1,7 +1,10 @@
 let todos = []; // in memory space
 
 export async function getAllTodo(req, res, next) {
-    //  write here
+    res.status(200).json({
+        todos
+    })
+    next();
 }
 
 export async function createTodo(req, res, next) {

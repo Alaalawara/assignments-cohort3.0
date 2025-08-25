@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import jwt from 'jsonwebtoken';
 import { getAllTodo, createTodo, updateTodo, deleteTodoById, searchTodo } from './routes/todo.js';
+import { auth } from './middlewares/user.js';
 const app = express();
 const JWT_SECRET = "randomstring";
 const PORT = 3001;
@@ -9,22 +10,22 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-const users = [];
+export const users = [];
 //{ username:abc@gmail.com, password:abc#123
 //}
 
-function generatetoken() {
-  const options = ['a', 'b', 'c', 'd', 'e', '1', '2', '3', '4', '5'];
-  let token = ''
-  for (let i = 0; i <= 10; i++) {
-    token += options[Math.floor(Math.random() * options.length)];
-  }
-  return token;
-}
+// function generatetoken() {
+//   const options = ['a', 'b', 'c', 'd', 'e', '1', '2', '3', '4', '5'];
+//   let token = ''
+//   for (let i = 0; i <= 10; i++) {
+//     token += options[Math.floor(Math.random() * options.length)];
+//   }
+//   return token;
+// }
 
 
 // Get all todos
-app.get('/todos', getAllTodo);
+app.get('/todos', auth, getAllTodo);
 
 // Add a new todo
 app.post('/todos', createTodo);
@@ -69,6 +70,7 @@ app.post("/signin", function (req, res) {
       username: user.username, //username:abc@123
     }, JWT_SECRET);
 
+    // const token = generateToken();
     // user.token = token;
 
     res.send({
@@ -82,22 +84,30 @@ app.post("/signin", function (req, res) {
   console.log(users);
 })
 
-app.get("/me", function (req, res) {
-  const token = req.headers.token;
-  const decodeInformation = jwt.verify(token, JWT_SECRET); //{username:abc@123}
-
-  const username = decodeInformation.username;
-  const user = users.find(u => u.username === username);
-  if (user) {
-    res.status(200).json({
-      username: user.username
-    })
-  } else {
-    res.status(401).json({
-      message: "unauthorized"
-    })
-  }
+app.get("/me", auth, function (req, res) {
+  const user = req.user;
+  res.send({
+    username: user.username
+  })
 })
+
+// with jwt token
+// app.get("/me", function (req, res) {
+//   const token = req.headers.token;
+//   const decodeInformation = jwt.verify(token, JWT_SECRET); //{username:abc@123}
+
+//   const username = decodeInformation.username;
+//   const user = users.find(u => u.username === username);
+//   if (user) {
+//     res.status(200).json({
+//       username: user.username
+//     })
+//   } else {
+//     res.status(401).json({
+//       message: "unauthorized"
+//     })
+//   }
+// })
 
 // with normal stateful data
 // app.get("/me", function (req, res) {
@@ -114,6 +124,7 @@ app.get("/me", function (req, res) {
 //     })
 //   }
 // })
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
